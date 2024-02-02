@@ -14,6 +14,7 @@
                 <!-- register all the fonts found in a directory -->
                 <auto-detect/>
             </fonts>
+            <version>1.5</version>
         </renderer>
     </renderers>
 </fop>
