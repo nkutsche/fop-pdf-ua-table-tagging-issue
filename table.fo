@@ -33,48 +33,48 @@
                 <fo:table table-layout="fixed" width="100%">
                     <fo:table-header>
                         <fo:table-row>
-                            <fo:table-cell>
+                            <fo:table-cell border="1px solid black">
                                 <fo:block>HEAD A</fo:block>
                             </fo:table-cell>
-                            <fo:table-cell>
+                            <fo:table-cell border="1px solid black">
                                 <fo:block>HEAD B</fo:block>
                             </fo:table-cell>
                         </fo:table-row>
                     </fo:table-header>
-                    <fo:table-footer>
+                    <fo:table-footer role="TFoot">
                         <fo:table-row>
-                            <fo:table-cell>
+                            <fo:table-cell border="1px solid black">
                                 <fo:block>FOOT A</fo:block>
                             </fo:table-cell>
-                            <fo:table-cell>
+                            <fo:table-cell border="1px solid black">
                                 <fo:block>FOOT B</fo:block>
                             </fo:table-cell>
                         </fo:table-row>
                     </fo:table-footer>
                     <fo:table-body>
                         <fo:table-row>
-                            <fo:table-cell>
+                            <fo:table-cell border="1px solid black">
                                 <fo:block>CELL A1</fo:block>
                             </fo:table-cell>
-                            <fo:table-cell>
+                            <fo:table-cell border="1px solid black">
                                 <fo:block>CELL B1</fo:block>
                             </fo:table-cell>
                         </fo:table-row>
                         <fo:table-row>
-                            <fo:table-cell number-columns-spanned="2">
+                            <fo:table-cell number-columns-spanned="2" border="1px solid black">
                                 <fo:block>CELL A2-B2</fo:block>
                             </fo:table-cell>
                         </fo:table-row>
                         <fo:table-row>
-                            <fo:table-cell number-rows-spanned="2">
+                            <fo:table-cell number-rows-spanned="2" border="1px solid black">
                                 <fo:block>CELL A3-A4</fo:block>
                             </fo:table-cell>
-                            <fo:table-cell>
+                            <fo:table-cell border="1px solid black">
                                 <fo:block>CELL B3</fo:block>
                             </fo:table-cell>
                         </fo:table-row>
                         <fo:table-row>
-                            <fo:table-cell>
+                            <fo:table-cell border="1px solid black">
                                 <fo:block>CELL B4</fo:block>
                             </fo:table-cell>
                         </fo:table-row>
